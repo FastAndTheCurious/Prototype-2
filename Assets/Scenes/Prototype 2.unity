@@ -538,7 +538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf34582edca13d44292dcb0b1bf1fa2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefabs: []
 --- !u!4 &1162066620
 Transform:
   m_ObjectHideFlags: 0
@@ -790,6 +789,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2328856787402997069, guid: cfe4daca22cb5914f97c24e38a3f057a,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfe4daca22cb5914f97c24e38a3f057a, type: 3}
 --- !u!1001 &4266406983154414837
@@ -859,6 +863,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4266406981562278458, guid: 584c13b09f212614f90e190aa38cc661,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 584c13b09f212614f90e190aa38cc661, type: 3}
 --- !u!1001 &4673169591792306116
@@ -927,6 +936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673169591570459166, guid: 8e8d2e11cc08a5c44bfa43724eddad1c,
+        type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e8d2e11cc08a5c44bfa43724eddad1c, type: 3}
